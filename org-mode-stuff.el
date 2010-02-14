@@ -4,8 +4,10 @@
 ;; Check out the manual at http://orgmode.org/manual/ for details.
 ;;
 ;; Walter McGinnis, 2009-06-30
+;; Mamading Ceesay, 2010-02-14
 ;;
 ;; http://github.com/walter/aquamacs-emacs-starter-kit
+;; http://github.com/evangineer/aquamacs-emacs-starter-kit
 
 ;; The following lines are always needed.  Choose your own keys.
 (add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))
