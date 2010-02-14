@@ -69,18 +69,13 @@
             (local-set-key (kbd "C-c <down>")  'hs-show-all)
             (hs-minor-mode t)))         ; Hide and show blocks
 
-; see http://www.busydoingnothing.co.uk/twitter-el/ for details
-(autoload 'twitter-get-friends-timeline "twitter" nil t)
-(autoload 'twitter-status-edit "twitter" nil t)
-(global-set-key "\C-xt" 'twitter-get-friends-timeline)
-(add-hook 'twitter-status-edit-mode-hook 'longlines-mode)
-
 ;;;;; end Vendor libs
 
 ;;;;; Aquamacs Emacs Starter Kit specific customizations
 (require 'adjust-path)
 (require 'appearance)
 (require 'ido-setup)
+(require 'init-twitter)
 (require 'misc-mode-tweaks)
 (require 'org-mode-stuff)
 (require 'override-aquamacs-to-be-more-emacsy)
