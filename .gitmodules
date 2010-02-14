@@ -1,6 +1,3 @@
-[submodule "site-lisp/twitter"]
-	path = site-lisp/twitter
-	url = git://git.busydoingnothing.co.uk/twitter.git
 [submodule "site-lisp/twilight"]
 	path = site-lisp/twilight
 	url = git://github.com/crafterm/twilight-emacs.git
