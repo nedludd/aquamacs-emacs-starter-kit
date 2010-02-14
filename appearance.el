@@ -27,5 +27,9 @@
 ; (color-theme-twilight)
 (load-file (concat kitfiles-dir "/vendor" "/blackboard.el"))
 (color-theme-blackboard)
+; (load-file (concat kitfiles-dir "/vendor" "/sunburst.el"))
+; (color-theme-sunburst)
+; (load-file (concat kitfiles-dir "/vendor" "/hober2.el"))
+; (color-theme-hober2)
 
 (provide 'appearance)
