@@ -23,13 +23,13 @@
 ;; if you choose twilight or blackboard here, uncomment 
 ;; the relevant load and setting lines for the theme
 (custom-set-variables '(aquamacs-styles-mode t))
-; (load-file (concat kitfiles-dir "/vendor" "/twilight.el"))
+; (load-file (concat kitfiles-dir "/site-lisp" "/twilight.el"))
 ; (color-theme-twilight)
-; (load-file (concat kitfiles-dir "/vendor" "/blackboard.el"))
+; (load-file (concat kitfiles-dir "/site-lisp" "/blackboard.el"))
 ; (color-theme-blackboard)
-; (load-file (concat kitfiles-dir "/vendor" "/sunburst.el"))
+; (load-file (concat kitfiles-dir "/site-lisp" "/sunburst.el"))
 ; (color-theme-sunburst)
-(load-file (concat kitfiles-dir "/vendor" "/hober2.el"))
+(load-file (concat kitfiles-dir "/site-lisp" "/hober2.el"))
 (color-theme-hober2)
 
 (provide 'appearance)

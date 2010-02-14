@@ -26,7 +26,7 @@
 (setq org-tag-alist '(("@work" . ?w) ("@home" . ?h) ("@computer" . ?c) ("@phone" . ?p) ("@errands" . ?e)))
 
 ;; add remember to load path
-(add-to-list 'load-path (concat kitfiles-dir "/vendor" "/remember"))
+(add-to-list 'load-path (concat kitfiles-dir "/site-lisp" "/remember"))
 
 ;; tell org to load and integrate remember
 (org-remember-insinuate)

@@ -6,12 +6,16 @@
 ;; Walter McGinnis, 2009-06-28
 ;;
 ;; http://github.com/walter/aquamacs-emacs-starter-kit
+;; 
+;; Mamading Ceesay, 2010-02-14
+;;
+;; http://github.com/evangineer/aquamacs-emacs-starter-kit
 
 ;;;;; IMPORTANT: put this commented code in ~/Library/Aquamacs Emacs/Preferences.el
 ;;;;; begin code for Preferences.el
 ;; Aquamacs Emacs Starter Kit
-;; http://github.com/walter/aquamacs-emacs-starter-kit
-;; set the dotfiles-dir variable to this directory
+;; http://github.com/evangineer/aquamacs-emacs-starter-kit
+;; set the kitfiles-dir variable to this directory
 ;; (setq kitfiles-dir (concat (file-name-directory
 ;;                     (or (buffer-file-name) load-file-name)) "/aquamacs-emacs-starter-kit"))
 ;;
@@ -20,7 +24,7 @@
 ;; (require 'init)
 ;;;;; begin code for Preferences.el
 
-(add-to-list 'load-path (concat kitfiles-dir "/vendor"))
+(add-to-list 'load-path (concat kitfiles-dir "/site-lisp"))
 
 ;; Load up ELPA, the package manager
 
