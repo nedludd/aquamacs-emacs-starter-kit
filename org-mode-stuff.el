@@ -18,6 +18,10 @@
 ;; use clean view
 (setq org-hide-leading-stars t) 
 
+;; include diary contents in agenda and default to a nine day view
+(setq org-agenda-include-diary t)
+(setq org-agenda-ndays 9)
+
 ;; add timestamps to state changes for TODOs
 (setq org-todo-keywords
        '((sequence "TODO(t!)" "WAIT(w@/!)" "|" "DONE(d@/!)" "CANCELED(c@)")))
