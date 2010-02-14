@@ -20,4 +20,7 @@
 (setq org-todo-keywords
        '((sequence "TODO(t!)" "WAIT(w@/!)" "|" "DONE(d@/!)" "CANCELED(c@)")))
 
+;; set up some tags with shortcuts
+(setq org-tag-alist '(("@work" . ?w) ("@home" . ?h) ("@computer" . ?c) ("@phone" . ?p) ("@errands" . ?e)))
+
 (provide 'org-mode-stuff)
