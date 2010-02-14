@@ -54,5 +54,9 @@ However, I do occasionally include useful features (snippets, etc.) that origina
 
 ## TODO and Scratch:
        rinari config
-             tags for projects
+       tags for projects
+       move from vendor to site-lisp
+       add more extensions to site-lisp
+       add more elpa packages
+       standardize names for kitfiles
 
