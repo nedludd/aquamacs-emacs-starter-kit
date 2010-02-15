@@ -30,6 +30,8 @@ However, I do occasionally include useful features (snippets, etc.) that origina
 
 * cd ~/Library/Preferences/Aquamacs Emacs/
 * git clone git://github.com/evangineer/aquamacs-emacs-starter-kit.git
+* git submodule init
+* git submodule update
 * add the following to ~/Library/Preferences/Aquamacs Emacs/Preferences.el
 
 <pre>
