@@ -13,3 +13,6 @@
 [submodule "site-python/org-reqall"]
 	path = site-python/org-reqall
 	url = git://github.com/geekinthesticks/org-reqall.git
+[submodule "site-lisp/org-mode"]
+	path = site-lisp/org-mode
+	url = git://repo.or.cz/org-mode.git
