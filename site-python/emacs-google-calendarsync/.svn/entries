@@ -1,0 +1,53 @@
+8
+
+dir
+82
+http://emacs-google-calendarsync.googlecode.com/svn/trunk
+http://emacs-google-calendarsync.googlecode.com/svn
+
+
+
+2009-09-17T02:31:49.501951Z
+77
+CiscoRx
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3291e9e8-a99f-11dd-a772-7fcde58d38e6
+
+README
+file
+
+
+
+
+2010-02-15T05:35:37.000000Z
+0c5b3e873535a0fbb4179218e95d3f18
+2009-08-07T06:39:25.379380Z
+69
+CiscoRx
+
+emacs-google-calendarsync.py
+file
+
+
+
+
+2010-02-15T05:35:37.000000Z
+198baf89e3f2e8f9895dd1cc97c2b721
+2009-09-17T02:31:49.501951Z
+77
+CiscoRx
+has-props
+
