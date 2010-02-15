@@ -4,10 +4,15 @@
 ;; Check out the manual at http://orgmode.org/manual/ for details.
 ;;
 ;; Walter McGinnis, 2009-06-30
-;; Mamading Ceesay, 2010-02-14
+;; Mamading Ceesay, 2010-02-15
 ;;
 ;; http://github.com/walter/aquamacs-emacs-starter-kit
 ;; http://github.com/evangineer/aquamacs-emacs-starter-kit
+
+;; use our "fresh from git" version of org-mode rather than the ancient version 
+;; shipped with Aquamacs
+(add-to-list 'load-path (concat kitfiles-dir "/site-lisp" "/org-mode/lisp"))
+(require 'org-install)
 
 ;; The following lines are always needed.  Choose your own keys.
 (add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))
