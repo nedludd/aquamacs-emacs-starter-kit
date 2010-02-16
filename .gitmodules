@@ -13,3 +13,6 @@
 [submodule "site-lisp/org-mode"]
 	path = site-lisp/org-mode
 	url = git://repo.or.cz/org-mode.git
+[submodule "site-lisp/yasnippet-org-mode"]
+	path = site-lisp/yasnippet-org-mode
+	url = git://github.com/RickMoynihan/yasnippet-org-mode.git
