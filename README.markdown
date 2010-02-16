@@ -2,7 +2,7 @@
 
 Forked from [Walter McGinnis's aquamacs-emacs-starter-kit](http://github.com/walter/aquamacs-emacs-starter-kit), which in turn was inspired by [Phil Hagelberg's emacs-starter-kit](http://github.com/technomancy/emacs-starter-kit/tree/master) and fork customizations by [Geoffrey Grosenbach (topfunky)](http://github.com/topfunky/emacs-starter-kit/tree/master), but slimmed down for use with the already heavily customized Aquamacs Mac OS X version of emacs.
 
-Since this starter kit is aimed at Aquamacs it has a very different project layout than Phil Hagelberg's emacs-starter-kit and has diverged from Walter McGinnis's work. The Aquamacs Emacs Starter Kit suits the philosophy of Aquamacs to be more Mac like in directory structure. It also slims down the starter kit a lot since Aquamacs already includes many of the same concepts.  This is a new related project, not a fork, and thus code conventions may not be interchangable.
+Since this starter kit is aimed at Aquamacs it has a very different project layout than Phil Hagelberg's emacs-starter-kit and has also since diverged from Walter McGinnis's work. The Aquamacs Emacs Starter Kit suits the philosophy of Aquamacs to be more Mac like in directory structure. It also slims down the starter kit a lot since Aquamacs already includes many of the same concepts.  This is a new related project, not a fork, and thus code conventions may not be interchangable.
 
 ## Guiding concepts in order of precedence
 
@@ -16,6 +16,8 @@ Since this starter kit is aimed at Aquamacs it has a very different project layo
 Like Walter, I've also never been a Textmate user, so I don't include textmate mode or other the textmate keybindings that may smooth the transition for those that are coming form Textmate. Check out topfunky's for lots of that stuff. Feel free to fork and add them to your fork.
 
 However, I do occasionally include useful features (snippets, etc.) that originated from Textmate. Again, fork and add if you have some.
+
+Up until recently I was a Vim user, but [Emacs can be Vim](http://www.sanityinc.com/articles/vim-vs-emacs) - Thank you for enlightening me, Steve Purcell!  This is the article that persuaded me to switch from MacVim to Aquamacs and cross the dreaded Vim/Emacs divide.  I will be adding features to make Aquamacs more friendly to converts from Vim such as myself.
 
 ## ELPA packages that will be downloaded
 
