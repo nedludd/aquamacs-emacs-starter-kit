@@ -56,6 +56,16 @@ Up until recently I was a Vim user, but [Emacs can be Vim](http://www.sanityinc.
 * optional -- use included customizations.el.walter as guide to settings that you can access via Aquamacs menu > Preferences OR (be careful hand editing this, can break things) you can merge them into your ~/Library/Preferences/Aquamacs Emacs/customizations.el file by merging in settings from customizations.el.walter by hand. If merging by hand, make sure to replace the ERC "your..." setting with actual values instead of the included placeholders.
 * restart
 
+## Getting the most out of Org-Mode
+
+One of the best reasons to use or switch to Emacs is [Org-Mode](http://orgmode.org/).  So I've included the latest and greatest Org-Mode straight from the project's Git repository, as the one that ships with Aquamacs is ancient!  Here are some recommendations for getting the most out of Org-Mode:
+
+* Read [David O'Toole's orgtutorial](http://dto.github.com/notebook/orgtutorial.html) if you are new to Org.
+* Setup your own org-agenda-files as described in the tutorial
+* Put (org-agenda-list) in your Preferences.el file after the Starter Kit setup code.
+* If you use a task management web service like Remember The Milk or ReQall, check out [Org's RSS feed capability](http://orgmode.org/manual/RSS-Feeds.html#RSS-Feeds)
+* Read [the Org Manual](http://orgmode.org/manual/index.html#Top) at your leisure
+
 ## TODO and Scratch:
        rinari config
        tags for projects
