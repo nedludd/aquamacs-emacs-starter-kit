@@ -25,8 +25,6 @@
 ;; use clean view
 (setq org-hide-leading-stars t) 
 
-(setq org-log-done time)
-
 ;; include diary contents in agenda and default to a nine day view
 (setq org-agenda-include-diary t)
 (setq org-agenda-ndays 9)
