@@ -11,6 +11,8 @@
 
 ;; use our "fresh from git" version of org-mode rather than the ancient version 
 ;; shipped with Aquamacs
+;; NB: This only works if you go into the org-mode directory and run 
+;; "make" first!
 (add-to-list 'load-path (concat kitfiles-dir "/site-lisp" "/org-mode/lisp"))
 (require 'org-install)
 
@@ -22,6 +24,8 @@
 
 ;; use clean view
 (setq org-hide-leading-stars t) 
+
+(setq org-log-done time)
 
 ;; include diary contents in agenda and default to a nine day view
 (setq org-agenda-include-diary t)
