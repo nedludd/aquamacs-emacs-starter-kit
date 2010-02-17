@@ -63,6 +63,8 @@ One of the best reasons to use or switch to Emacs is [Org-Mode](http://orgmode.o
 * Read [David O'Toole's orgtutorial](http://dto.github.com/notebook/orgtutorial.html) if you are new to Org.
 * Setup your own org-agenda-files as described in the tutorial
 * Put (org-agenda-list) in your Preferences.el file after the Starter Kit setup code.
+* Use the handy shortcuts defined in org-mode-stuff.el for accessing Org features quickly and efficiently
+* You can use Org to keep a journal, see org-mod-stuff.el for more details
 * If you use a task management web service like Remember The Milk or ReQall, check out [Org's RSS feed capability](http://orgmode.org/manual/RSS-Feeds.html#RSS-Feeds)
 * Read [the Org Manual](http://orgmode.org/manual/index.html#Top) at your leisure
 
