@@ -44,6 +44,7 @@
 
 ;; See Journaling with Emacs OrgMode
 ;; http://metajack.im/2009/01/01/journaling-with-emacs-orgmode/
+;; NB: Be sure to define org-journal-file in your Preferences.el file as mentioned in the article.
 (defvar org-journal-date-format "%d-%m-%Y"  
   "Date format string for journal headings.")  
   
