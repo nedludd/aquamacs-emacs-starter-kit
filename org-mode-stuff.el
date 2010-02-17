@@ -54,7 +54,7 @@
   (widen)  
   (let ((today (format-time-string org-journal-date-format)))  
     (beginning-of-buffer)  
-    (unless (org-goto-local-search-forward-headings today nil t)  
+    (unless (org-goto-local-search-headings today nil t)  
       ((lambda ()   
          (org-insert-heading)  
          (insert today)  
