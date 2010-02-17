@@ -19,3 +19,6 @@
 [submodule "site-snippets/yasnippet-licenses/text-mode"]
 	path = site-snippets/yasnippet-licenses/text-mode
 	url = git://github.com/adulteratedjedi/yasnippet-licenses.git
+[submodule "site-lisp/yasnippet"]
+	path = site-lisp/yasnippet
+	url = git://github.com/emacsmirror/yasnippet.git
