@@ -7,7 +7,10 @@
 ;; http://github.com/evangineer/aquamacs-emacs-starter-kit
 
 (load-file (concat kitfiles-dir "/site-lisp" "/sunrise-commander/sunrise-commander.el"))
+(add-to-list 'load-path (concat kitfiles-dir "/site-lisp" "/sunrise_extensions"))
 (require 'sunrise-commander)
+(require 'sunrise-x-buttons)
+
 (add-to-list 'auto-mode-alist '("\\.srvm\\'" . sr-virtual-mode))
 
 ;; custom keybindings for Sunrise Commander
