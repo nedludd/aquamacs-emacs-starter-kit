@@ -1,6 +1,6 @@
 ;; twit-setup.el
 ;;
-;; Turn on configure twit
+;; Turn on and configure twit
 ;;
 ;; Mamading Ceesay, 2010-02-17
 ;;

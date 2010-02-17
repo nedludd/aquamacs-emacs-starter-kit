@@ -81,6 +81,7 @@
 (require 'prefer-utf)
 (require 'twit-setup)
 (require 'useful-functions)
+(require 'yasnippet-setup)
 
 ;;;;; end Aquamacs Emacs Starter Kit specific customizations
 
