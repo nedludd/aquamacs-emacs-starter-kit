@@ -22,3 +22,6 @@
 [submodule "site-lisp/yasnippet"]
 	path = site-lisp/yasnippet
 	url = git://github.com/emacsmirror/yasnippet.git
+[submodule "site-lisp/package"]
+	path = site-lisp/package
+	url = git://github.com/technomancy/package.el.git
