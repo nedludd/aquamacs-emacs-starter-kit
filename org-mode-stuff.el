@@ -67,4 +67,14 @@
     (unless (= (current-column) 2)  
       (insert "\n\n  "))))  
 
+;; custom keybindings for org-mode
+;; http://www.tychoish.com/2009/09/useful-emacs-and-orgmode-hacks/
+(global-set-key (kbd "C-c o a") 'org-agenda-list)
+(global-set-key (kbd "C-c o t") 'org-todo-list)
+(global-set-key (kbd "C-c o p") 'org-insert-property-drawer)
+(global-set-key (kbd "C-c o d") 'org-date)
+(global-set-key (kbd "C-c o j") 'org-journal-entry)
+(global-set-key (kbd "C-c r") 'org-remember)
+(global-set-key (kbd "C-c a") 'org-agenda)
+
 (provide 'org-mode-stuff)
