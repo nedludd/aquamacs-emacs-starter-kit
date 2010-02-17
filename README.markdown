@@ -26,7 +26,6 @@ Up until recently I was a Vim user, but [Emacs can be Vim](http://www.sanityinc.
 * paredit -- parenthesis matching, nice addition for lisp editing
 * rinari -- enhancements to emacs aimed at Ruby on Rails developers
 * w3 -- lynx-like built in browser for emacs
-* yasnippet-bundle -- snippet functionality ala textmate, including standard distribution of snippets
 
 ## Install
 

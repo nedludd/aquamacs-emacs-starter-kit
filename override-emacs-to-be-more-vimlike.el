@@ -1,3 +1,13 @@
+;; override-emacs-to-be-more-vimlike.el
+;;
+;; Modify default Emacs behaviours to suit Vim migrants like myself.
+;;
+;; Mamading Ceesay, 2010-02-17
+;;
+;; http://github.com/evangineer/aquamacs-emacs-starter-kit
+
+
+;; tweaks for making emacs as vim-like as possible
 ;; taken from http://stackoverflow.com/questions/98225/vim-macros-dont-work-when-using-viper-vimpulse-in-emacs
 (define-key viper-vi-global-user-map [(delete)] 'delete-char)
 (define-key viper-vi-global-user-map "/" 'isearch-forward-regexp)
@@ -21,3 +31,5 @@
 
 (push '("only" (delete-other-windows)) ex-token-alist)
 (push '("close" (delete-window)) ex-token-alist)
+
+(provide 'override-emacs-to-be-more-vimlike)
