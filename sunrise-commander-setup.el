@@ -10,4 +10,9 @@
 (require 'sunrise-commander)
 (add-to-list 'auto-mode-alist '("\\.srvm\\'" . sr-virtual-mode))
 
+;; custom keybindings for Sunrise Commander
+;; inspired by http://www.emacswiki.org/emacs/Sunrise_Commander_Tips#toc1
+(global-set-key (kbd "C-c s x") 'sunrise)
+(global-set-key (kbd "C-c s X") 'sunrise-cd)
+
 (provide 'sunrise-commander-setup)
