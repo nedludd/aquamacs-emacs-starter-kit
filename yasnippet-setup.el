@@ -11,19 +11,13 @@
 (add-to-list 'load-path (concat kitfiles-dir "/site-lisp" "/yasnippet"))
 (require 'yasnippet) ;; not yasnippet-bundle
 (yas/initialize)
-;;(yas/load-directory 
-;;	('(concat kitfiles-dir "/site-lisp" "/yasnippet/snippets")
-;;	 '(concat kitfiles-dir "/site-lisp" "/yasnippet-org-mode")))
-;;(yas/load-directory 
-;;	(concat kitfiles-dir "/site-lisp" "/yasnippet/snippets"))
-;;(yas/load-directory 
-;;	(concat kitfiles-dir "/site-lisp" "/yasnippet-org-mode"))
 
 ;; My elisp was sufficiently rusty to make this bit hard work getting right!
 ;; Got the solution from http://github.com/jmjeong/jmjeong-emacs/blob/master/jmjeong-yasnippet.el, thank you Jaemok Jeong!
 (setq yas/root-directory
 	(list (concat kitfiles-dir "/site-lisp" "/yasnippet/snippets")
-              (concat kitfiles-dir "/site-snippets")))
+	      (concat kitfiles-dir "/site-snippets" "/yasnippet-org-mode")
+	      (concat kitfiles-dir "/site-snippets" "/yasnippet-licenses")))
 ;; Map `yas/load-directory' to every element
 (mapc 'yas/load-directory yas/root-directory)
 
