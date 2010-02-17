@@ -16,3 +16,6 @@
 [submodule "site-snippets/org-mode"]
 	path = site-snippets/org-mode
 	url = git://github.com/RickMoynihan/yasnippet-org-mode.git
+[submodule "site-snippets/text-mode/licenses"]
+	path = site-snippets/text-mode/licenses
+	url = git@github.com:evangineer/yasnippet-licenses.git
