@@ -25,6 +25,7 @@
 ;;;;; begin code for Preferences.el
 
 (add-to-list 'load-path (concat kitfiles-dir "/site-lisp"))
+(load-file (concat kitfiles-dir "/site-lisp" "/package/package.el"))
 
 ;; Load up ELPA, the package manager
 
