@@ -33,6 +33,9 @@ Up until recently I was a Vim user, but [Emacs can be Vim](http://www.sanityinc.
 * git clone git://github.com/evangineer/aquamacs-emacs-starter-kit.git
 * git submodule init
 * git submodule update
+* pushd site-lisp/org-mode
+* make
+* popd
 * add the following to ~/Library/Preferences/Aquamacs Emacs/Preferences.el
 
 <pre>
