@@ -13,11 +13,11 @@
 [submodule "site-lisp/org-mode"]
 	path = site-lisp/org-mode
 	url = git://repo.or.cz/org-mode.git
-[submodule "site-snippets/yasnippet-org-mode/org-mode"]
-	path = site-snippets/yasnippet-org-mode/org-mode
+[submodule "snippets/yasnippet-org-mode/org-mode"]
+	path = snippets/yasnippet-org-mode/org-mode
 	url = git://github.com/RickMoynihan/yasnippet-org-mode.git
-[submodule "site-snippets/yasnippet-licenses/text-mode"]
-	path = site-snippets/yasnippet-licenses/text-mode
+[submodule "snippets/yasnippet-licenses/text-mode"]
+	path = snippets/yasnippet-licenses/text-mode
 	url = git://github.com/adulteratedjedi/yasnippet-licenses.git
 [submodule "site-lisp/yasnippet"]
 	path = site-lisp/yasnippet
