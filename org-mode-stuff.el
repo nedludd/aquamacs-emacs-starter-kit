@@ -9,12 +9,16 @@
 ;; http://github.com/walter/aquamacs-emacs-starter-kit
 ;; http://github.com/evangineer/aquamacs-emacs-starter-kit
 
-;; use our "fresh from git" version of org-mode rather than the ancient version 
-;; shipped with Aquamacs
+;; use our "fresh from git" version of org-mode rather than the ancient 
+;; version shipped with Aquamacs
 ;; NB: This only works if you go into the org-mode directory and run 
-;; "make" first!
-(add-to-list 'load-path (concat kitfiles-dir "/site-lisp" "/org-mode/lisp"))
+;; "make all" first!
+(add-to-list 'load-path 
+	(concat kitfiles-dir "/site-lisp" "/org-mode/lisp"))
 (require 'org-install)
+
+(add-to-list 'Info-default-directory-list 
+	(concat kitfiles-dir "/site-lisp" "/org-mode/doc"))
 
 ;; The following lines are always needed.  Choose your own keys.
 (add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))
@@ -34,7 +38,9 @@
        '((sequence "TODO(t!)" "WAIT(w@/!)" "|" "DONE(d@/!)" "CANCELED(c@)")))
 
 ;; set up some tags with shortcuts
-(setq org-tag-alist '(("@work" . ?w) ("@home" . ?h) ("@computer" . ?c) ("@phone" . ?p) ("@errands" . ?e)))
+(setq org-tag-alist 
+	'(("@work" . ?w) ("@home" . ?h) ("@computer" . ?c) 
+	  ("@phone" . ?p) ("@errands" . ?e)))
 
 ;; add remember to load path
 (add-to-list 'load-path (concat kitfiles-dir "/site-lisp" "/remember"))
