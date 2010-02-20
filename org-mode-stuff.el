@@ -18,7 +18,8 @@
 (require 'org-install)
 
 (add-to-list 'Info-default-directory-list 
-	(concat kitfiles-dir "/site-lisp" "/org-mode/doc"))
+	(concat kitfiles-dir "/site-lisp" "/org-mode/doc")
+	(concat kitfiles-dir "/site-lisp" "/remember"))
 
 ;; The following lines are always needed.  Choose your own keys.
 (add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))

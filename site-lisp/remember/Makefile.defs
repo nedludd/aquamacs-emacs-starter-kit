@@ -1,5 +1,5 @@
 # -*- Makefile -*-
-EMACS    = emacs
+EMACS    = /Applications/Aquamacs\ Emacs.app/Contents/MacOS/Aquamacs\ Emacs
 SITEFLAG = --no-site-file
 
 # XEmacs users will probably want the following settings.
