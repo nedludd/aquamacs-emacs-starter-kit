@@ -77,6 +77,7 @@
 (require 'appearance)
 (require 'auto-complete-setup)
 (require 'ido-setup)
+(require 'js2-mode-setup)
 (require 'misc-mode-tweaks)
 (require 'org-mode-stuff)
 (require 'override-aquamacs-to-be-more-emacsy)
