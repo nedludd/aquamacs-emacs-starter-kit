@@ -1,3 +1,4 @@
+
 # Aquamacs Emacs Starter Kit
 
 Forked from [Walter McGinnis's aquamacs-emacs-starter-kit](http://github.com/walter/aquamacs-emacs-starter-kit), which in turn was inspired by [Phil Hagelberg's emacs-starter-kit](http://github.com/technomancy/emacs-starter-kit/tree/master) and fork customizations by [Geoffrey Grosenbach (topfunky)](http://github.com/topfunky/emacs-starter-kit/tree/master), but slimmed down for use with the already heavily customized Aquamacs Mac OS X version of emacs.
@@ -34,7 +35,10 @@ Up until recently I was a Vim user, but [Emacs can be Vim](http://www.sanityinc.
 * git submodule init
 * git submodule update
 * pushd site-lisp/org-mode
-* make
+* make all
+* popd
+* pushd site-lisp/org-mode
+* make all
 * popd
 * add the following to ~/Library/Preferences/Aquamacs Emacs/Preferences.el
 
