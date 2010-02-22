@@ -32,9 +32,9 @@ Up until recently I was a Vim user, but [Emacs can be Vim](http://www.sanityinc.
 
 * cd ~/Library/Preferences/Aquamacs Emacs/
 * git clone git://github.com/evangineer/aquamacs-emacs-starter-kit.git
+* cd aquamacs-emacs-starter-kit
 * git submodule init
 * git submodule update
-* cd aquamacs-emacs-starter-kit
 * pushd site-lisp/org-mode
 * make all
 * popd
