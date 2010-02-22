@@ -5,6 +5,12 @@
 ;; Walter McGinnis, 2009-06-28
 ;;
 ;; http://github.com/walter/aquamacs-emacs-starter-kit
+;;
+;; Added mode hooks to use whitespace
+;;
+;; Mamading Ceesay, 2010-02-22
+;;
+;; http://github.com/evangineer/aquamacs-emacs-starter-kit
 
 ;; file types that are ruby
 ;; credit to technomancy/emacs-starter-kit/starter-kity-ruby.el
@@ -31,5 +37,13 @@
 ;; http://github.com/technomancy/emacs-starter-kit/(github commit gobbly gook)/elpa-to-submit/ri.el
 ;; may slow Aquamacs startup
 (require 'ri)
+
+;; whitespace setup
+(add-hook 'ruby-mode-hook 'whitespace-mode)
+(add-hook 'python-mode-hook 'whitespace-mode)
+(add-hook 'js2-mode-hook 'whitespace-mode)
+
+;; define which white spaces should be visible
+(setq whitespace-style '(trailing tab-mark))
 
 (provide 'misc-mode-tweaks)
