@@ -43,6 +43,8 @@
 (add-hook 'python-mode-hook 'whitespace-mode)
 (add-hook 'js2-mode-hook 'whitespace-mode)
 (add-hook 'emacs-lisp-mode-hook 'whitespace-mode)
+(add-hook 'html-mode-hook 'whitespace-mode)
+(add-hook 'rst-mode-hook 'whitespace-mode)
 
 ;; define which white spaces should be visible
 (setq whitespace-style '(trailing tab-mark))

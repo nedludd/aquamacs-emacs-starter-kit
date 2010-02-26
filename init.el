@@ -33,7 +33,7 @@
 ;; and ~/.emacs.d/elpa/ exist
 ;; make them if not
 (unless (file-directory-p "~/.emacs.d/elpa")
-	    (make-directory "~/.emacs.d/elpa" t))
+        (make-directory "~/.emacs.d/elpa" t))
 
 (require 'package)
 (package-initialize)
@@ -46,7 +46,7 @@
 (require 'whitespace)
 
 ;; Additional Modes
-(require 'yaml-mode)                                                                                                        
+(require 'yaml-mode)
 (add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
 
 ;; Mac OS X/iPhone oriented, thanks http://github.com/topfunky/emacs-starter-kit/topfunky.el
@@ -78,14 +78,16 @@
 (require 'auto-complete-setup)
 (require 'ido-setup)
 (require 'js2-mode-setup)
-(require 'misc-mode-tweaks)
 (require 'org-mode-stuff)
 (require 'override-aquamacs-to-be-more-emacsy)
 (require 'prefer-utf)
+(require 'rst-mode-setup)
 (require 'sunrise-commander-setup)
 (require 'twit-setup)
 (require 'useful-functions)
 (require 'yasnippet-setup)
+;; contains whitespace config for various modes and more
+(require 'misc-mode-tweaks)
 
 ;;;;; end Aquamacs Emacs Starter Kit specific customizations
 
