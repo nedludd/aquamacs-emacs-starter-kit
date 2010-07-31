@@ -6,7 +6,7 @@
 ;;
 ;; http://github.com/evangineer/aquamacs-emacs-starter-kit
 
-(add-to-list 'load-path 
+(add-to-list 'load-path
              (concat kitfiles-dir "/site-lisp" "/go-mode"))
 (require 'go-mode-load)
 
