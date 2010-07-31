@@ -76,6 +76,7 @@
 (require 'adjust-path)
 (require 'appearance)
 (require 'auto-complete-setup)
+(require 'csharp-mode-setup)
 (require 'go-mode-setup)
 (require 'ido-setup)
 (require 'js2-mode-setup)
