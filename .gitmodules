@@ -31,3 +31,6 @@
 [submodule "site-lisp/sunrise-commander"]
 	path = site-lisp/sunrise-commander
 	url = git://github.com/emacsmirror/sunrise-commander.git
+[submodule "site-lisp/markdown-mode"]
+	path = site-lisp/markdown-mode
+	url = http://jblevins.org/git/markdown-mode.git
