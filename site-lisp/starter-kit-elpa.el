@@ -5,8 +5,9 @@
 ;; acquired from http://github.com/technomancy/emacs-starter-kit/
 ;; but modified to specify only packages that aren't already bundled with Aquamacs
 ;; and preferred by Walter McGinnis for Rails/Ruby work
+
 (defvar starter-kit-packages (list 'gist
-				   'magit
+                                   'magit
                                    'paredit
 				   'rinari
 				   'w3)

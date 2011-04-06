@@ -25,19 +25,20 @@
 ;;;;; begin code for Preferences.el
 
 (add-to-list 'load-path (concat kitfiles-dir "/site-lisp"))
-(load-file (concat kitfiles-dir "/site-lisp" "/package/package.el"))
+;(load-file (concat kitfiles-dir "/site-lisp" "/package/package.el"))
 
 ;; Load up ELPA, the package manager
 
 ;; test that ~/.emacs.d
 ;; and ~/.emacs.d/elpa/ exist
 ;; make them if not
-(unless (file-directory-p "~/.emacs.d/elpa")
-        (make-directory "~/.emacs.d/elpa" t))
+;(unless (file-directory-p "~/.emacs.d/elpa")
+;        (make-directory "~/.emacs.d/elpa" t))
 
-(require 'package)
-(package-initialize)
-(require 'starter-kit-elpa)
+;(require 'package)
+;(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
+;(package-initialize)
+;(require 'starter-kit-elpa)
 
 ;;;;; Vendor libs
 
