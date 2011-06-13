@@ -25,10 +25,11 @@ However, I do occasionally include useful features (snippets, etc.) that origina
 * git clone git://github.com/evangineer/aquamacs-emacs-starter-kit.git
 * cd aquamacs-emacs-starter-kit
 * git submodule init
+* git clone --depth 1 git://repo.or.cz/org-mode.git site-lisp/org-mode
+  (don't need the huge history)
 * git submodule update
-* pushd site-lisp/org-mode
+* cd site-lisp/org-mode
 * make all
-* popd
 * add the following to ~/Library/Preferences/Aquamacs Emacs/Preferences.el
 
 <pre>
