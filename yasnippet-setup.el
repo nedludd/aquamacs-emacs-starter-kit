@@ -16,8 +16,7 @@
 ;; Got the solution from http://github.com/jmjeong/jmjeong-emacs/blob/master/jmjeong-yasnippet.el, thank you Jaemok Jeong!
 (setq yas/root-directory
       (list (concat kitfiles-dir "/site-lisp" "/yasnippet/snippets")
-            (concat kitfiles-dir "/snippets" "/yasnippet-org-mode")
-            (concat kitfiles-dir "/snippets" "/yasnippet-licenses")))
+            (concat kitfiles-dir "/snippets" "/yasnippet-org-mode")))
 ;; Map `yas/load-directory' to every element
 (mapc 'yas/load-directory yas/root-directory)
 
