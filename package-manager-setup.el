@@ -12,7 +12,11 @@
 (require 'el-get)
 
 (setq el-get-sources
-      '(ack))
+      '(
+	;; Recipes
+	yaml-mode
+	)
+      )
 
 (el-get)
 
