@@ -25,8 +25,8 @@
 [submodule "site-lisp/twilight"]
 	path = site-lisp/twilight
 	url = git://github.com/nedludd/twilight-emacs.git
-[submodule "site-lisp/el-get"]
-	path = site-lisp/el-get
+[submodule "site-lisp/packages/el-get"]
+	path = site-lisp/packages/el-get
 	url = git://github.com/dimitri/el-get.git
 [submodule "site-lisp/org-mode"]
 	path = site-lisp/org-mode
