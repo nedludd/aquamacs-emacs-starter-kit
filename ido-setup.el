@@ -8,4 +8,8 @@
 
 (ido-mode t)
 
+;; Put "." as the first item in a list of filenames, so you can easily
+;; start dired in the current directory
+(setq ido-show-dot-for-dired t)
+
 (provide 'ido-setup)

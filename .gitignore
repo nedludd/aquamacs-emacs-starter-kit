@@ -1,2 +1,5 @@
 *.swp
 .#*.el
+site-lisp/packages/.loaddefs*
+site-lisp/packages/.status*
+site-lisp/packages/*

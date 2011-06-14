@@ -1,0 +1,10 @@
+;; M-x command completion (http://github.com/nonsequitur/smex/)
+(require 'smex)
+(setq smex-save-file (concat settings-dir "smex.save"))
+(smex-auto-update)
+(global-set-key [F13] 'smex)
+(global-set-key "\M-x" 'smex)
+(global-set-key "\M-X" 'smex-major-mode-commands)
+(add-hook 'after-init-hook 'smex-initialize)
+
+(provide 'smex-setup)

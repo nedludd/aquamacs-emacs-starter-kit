@@ -27,8 +27,11 @@
 ;; (require 'init)
 ;;;;; end code for Preferences.el
 
+;; The directory for all addons and third party packages
 (setq site-lisp-dir (concat kitfiles-dir "/site-lisp"))
 (add-to-list 'load-path site-lisp-dir)
+
+(setq settings-dir (concat kitfiles-dir "/settings/"))
 
 ;; Load package manager
 (require 'package-manager-setup)
@@ -47,6 +50,7 @@
 (require 'auto-complete-setup)
 (require 'csharp-mode-setup)
 (require 'go-mode-setup)
+(require 'smex-setup)
 (require 'ido-setup)
 (require 'js2-mode-setup)
 (require 'markdown-mode-setup)

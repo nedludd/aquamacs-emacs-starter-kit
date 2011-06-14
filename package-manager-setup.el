@@ -14,6 +14,7 @@
 (setq el-get-sources
       '(
 	;; Recipes
+	smex
 	yaml-mode
 	)
       )
