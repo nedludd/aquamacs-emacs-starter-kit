@@ -7,7 +7,7 @@
 (package-initialize)
 
 ;; Now el-get
-(add-to-list 'load-path (concat site-lisp-dir "/el-get"))
+(add-to-list 'load-path (concat site-lisp-dir "/packages/el-get"))
 (setq el-get-dir (concat site-lisp-dir "/packages"))
 (require 'el-get)
 

@@ -1,6 +1,3 @@
-[submodule "site-lisp/twit"]
-	path = site-lisp/twit
-	url = git://github.com/peccu/twit.el.git
 [submodule "site-lisp/color-theme-zen-and-art"]
 	path = site-lisp/color-theme-zen-and-art
 	url = git://github.com/irfn/zen-and-art.git

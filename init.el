@@ -57,8 +57,6 @@
 (require 'org-mode-stuff)
 (require 'override-aquamacs-to-be-more-emacsy)
 (require 'prefer-utf)
-(require 'rst-mode-setup)
-(require 'twit-setup)
 (require 'useful-functions)
 (require 'yasnippet-setup)
 ;; contains whitespace config for various modes and more

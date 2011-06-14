@@ -1,4 +1,5 @@
 ;; M-x command completion (http://github.com/nonsequitur/smex/)
+(add-to-list 'load-path (concat site-lisp-dir "/packages/smex"))
 (require 'smex)
 (setq smex-save-file (concat settings-dir "smex.save"))
 (smex-auto-update)

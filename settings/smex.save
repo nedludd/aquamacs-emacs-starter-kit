@@ -1,16 +1,19 @@
 
 ;; ----- smex-history -----
 (
- smex-update
+ twit-show-recent-tweets
+ list-processes
+ twit-show-followers
+ customize-group
  cd
  5x5
  arp
- dbx
- dig
- erc
 )
 
 ;; ----- smex-data -----
 (
- (smex-update . 1)
+ (customize-group . 1)
+ (twit-show-followers . 1)
+ (list-processes . 1)
+ (twit-show-recent-tweets . 2)
 )
