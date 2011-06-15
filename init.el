@@ -31,7 +31,7 @@
 (setq site-lisp-dir (concat kitfiles-dir "/site-lisp"))
 (add-to-list 'load-path site-lisp-dir)
 
-(setq settings-dir (concat kitfiles-dir "/settings/"))
+(setq settings-dir (concat "~/Library/Application Support/Aquamacs Emacs/"))
 
 ;; Load package manager
 (require 'package-manager-setup)
@@ -47,16 +47,16 @@
 ;;;;; Aquamacs Emacs Starter Kit specific customizations
 (require 'adjust-path)
 (require 'appearance)
+(require 'anything-setup)
 (require 'auto-complete-setup)
-(require 'csharp-mode-setup)
-(require 'go-mode-setup)
-(require 'smex-setup)
+(require 'ibuffer-setup)
 (require 'ido-setup)
 (require 'js2-mode-setup)
 (require 'markdown-mode-setup)
 (require 'org-mode-stuff)
 (require 'override-aquamacs-to-be-more-emacsy)
 (require 'prefer-utf)
+(require 'smex-setup)
 (require 'useful-functions)
 (require 'yasnippet-setup)
 ;; contains whitespace config for various modes and more

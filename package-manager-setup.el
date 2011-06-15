@@ -14,8 +14,15 @@
 (setq el-get-sources
       '(
 	;; Recipes
+	anything
 	smex
 	yaml-mode
+
+	;; HTTP
+	(:name dired-single       :type http      :url "http://www.northbound-train.com/emacs/dired-single.el" :load "dired-single.el")
+	;; Emacswiki
+	(:name anything-yaetags   :type emacswiki :load "anything-yaetags.el")
+	(:name descbinds-anything :type emacswiki :load "descbinds-anything.el")
 	)
       )
 
