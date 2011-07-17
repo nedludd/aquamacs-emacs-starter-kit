@@ -1,36 +1,6 @@
-[submodule "site-lisp/color-theme-zen-and-art"]
-	path = site-lisp/color-theme-zen-and-art
-	url = git://github.com/irfn/zen-and-art.git
-[submodule "site-lisp/color-theme-ir-black"]
-	path = site-lisp/color-theme-ir-black
-	url = git://github.com/burke/color-theme-ir-black.git
-[submodule "snippets/yasnippet-org-mode/org-mode"]
-	path = snippets/yasnippet-org-mode/org-mode
-	url = git://github.com/RickMoynihan/yasnippet-org-mode.git
-[submodule "site-lisp/yasnippet"]
-	path = site-lisp/yasnippet
-	url = git://github.com/emacsmirror/yasnippet.git
 [submodule "site-lisp/package"]
 	path = site-lisp/package
 	url = git://github.com/technomancy/package.el.git
-[submodule "site-lisp/auto-complete"]
-	path = site-lisp/auto-complete
-	url = git://github.com/m2ym/auto-complete.git
-[submodule "site-lisp/markdown-mode"]
-	path = site-lisp/markdown-mode
-	url = http://jblevins.org/git/markdown-mode.git
-[submodule "site-lisp/twilight"]
-	path = site-lisp/twilight
-	url = git://github.com/nedludd/twilight-emacs.git
 [submodule "site-lisp/packages/el-get"]
 	path = site-lisp/packages/el-get
 	url = git://github.com/dimitri/el-get.git
-[submodule "site-lisp/org-mode"]
-	path = site-lisp/org-mode
-	url = git://repo.or.cz/org-mode.git
-[submodule "site-lisp/magit"]
-	path = site-lisp/magit
-	url = https://github.com/magit/magit.git
-[submodule "site-lisp/nxhtml"]
-	path = site-lisp/nxhtml
-	url = https://github.com/emacsmirror/nxhtml.git
