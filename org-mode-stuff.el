@@ -9,17 +9,17 @@
 ;; http://github.com/walter/aquamacs-emacs-starter-kit
 ;; http://github.com/evangineer/aquamacs-emacs-starter-kit
 
-;; use our "fresh from git" version of org-mode rather than the ancient 
+;; use our "fresh from git" version of org-mode rather than the ancient
 ;; version shipped with Aquamacs
-;; NB: This only works if you go into the org-mode directory and run 
+;; NB: This only works if you go into the org-mode directory and run
 ;; "make all" first!
-(add-to-list 'load-path 
-	(concat kitfiles-dir "/site-lisp" "/org-mode/lisp"))
+(add-to-list 'load-path
+             (concat kitfiles-dir "/site-lisp" "/org-mode/lisp"))
 (require 'org-install)
 
-(add-to-list 'Info-default-directory-list 
-	(concat kitfiles-dir "/site-lisp" "/org-mode/doc")
-	(concat kitfiles-dir "/site-lisp" "/remember"))
+(add-to-list 'Info-default-directory-list
+             (concat kitfiles-dir "/site-lisp" "/org-mode/doc")
+             (concat kitfiles-dir "/site-lisp" "/remember"))
 
 ;; The following lines are always needed.  Choose your own keys.
 (add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))
@@ -28,7 +28,7 @@
 (global-set-key "\C-cb" 'org-iswitchb)
 
 ;; use clean view
-(setq org-hide-leading-stars t) 
+(setq org-hide-leading-stars t)
 
 ;; include diary contents in agenda and default to a nine day view
 (setq org-agenda-include-diary t)
@@ -36,12 +36,12 @@
 
 ;; add timestamps to state changes for TODOs
 (setq org-todo-keywords
-       '((sequence "TODO(t!)" "WAIT(w@/!)" "|" "DONE(d@/!)" "CANCELED(c@)")))
+      '((sequence "TODO(t!)" "WAIT(w@/!)" "|" "DONE(d@/!)" "CANCELED(c@)")))
 
 ;; set up some tags with shortcuts
-(setq org-tag-alist 
-	'(("@work" . ?w) ("@home" . ?h) ("@computer" . ?c) 
-	  ("@phone" . ?p) ("@errands" . ?e)))
+(setq org-tag-alist
+      '(("@work" . ?w) ("@home" . ?h) ("@computer" . ?c)
+        ("@phone" . ?p) ("@errands" . ?e)))
 
 ;; add remember to load path
 (add-to-list 'load-path (concat kitfiles-dir "/site-lisp" "/remember"))
@@ -52,28 +52,28 @@
 ;; See Journaling with Emacs OrgMode
 ;; http://metajack.im/2009/01/01/journaling-with-emacs-orgmode/
 ;; NB: Be sure to define org-journal-file in your Preferences.el file as mentioned in the article.
-(defvar org-journal-date-format "%d-%m-%Y"  
-  "Date format string for journal headings.")  
-  
-(defun org-journal-entry ()  
-  "Create a new diary entry for today or append to an existing one."  
-  (interactive)  
-  (switch-to-buffer (find-file org-journal-file))  
-  (widen)  
-  (let ((today (format-time-string org-journal-date-format)))  
-    (beginning-of-buffer)  
-    (unless (org-goto-local-search-headings today nil t)  
-      ((lambda ()   
-         (org-insert-heading)  
-         (insert today)  
-         (insert "\n\n  \n"))))  
-    (beginning-of-buffer)  
-    (org-show-entry)  
-    (org-narrow-to-subtree)  
-    (end-of-buffer)  
-    (backward-char 2)  
-    (unless (= (current-column) 2)  
-      (insert "\n\n  "))))  
+(defvar org-journal-date-format "%d-%m-%Y"
+  "Date format string for journal headings.")
+
+(defun org-journal-entry ()
+  "Create a new diary entry for today or append to an existing one."
+  (interactive)
+  (switch-to-buffer (find-file org-journal-file))
+  (widen)
+  (let ((today (format-time-string org-journal-date-format)))
+    (beginning-of-buffer)
+    (unless (org-goto-local-search-headings today nil t)
+      ((lambda ()
+         (org-insert-heading)
+         (insert today)
+         (insert "\n\n  \n"))))
+    (beginning-of-buffer)
+    (org-show-entry)
+    (org-narrow-to-subtree)
+    (end-of-buffer)
+    (backward-char 2)
+    (unless (= (current-column) 2)
+      (insert "\n\n  "))))
 
 ;; custom keybindings for org-mode
 ;; http://www.tychoish.com/2009/09/useful-emacs-and-orgmode-hacks/

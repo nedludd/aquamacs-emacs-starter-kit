@@ -20,6 +20,7 @@
 (add-to-list 'auto-mode-alist '("\\.rake$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("Rakefile$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\.gemspec$" . ruby-mode))
+(add-to-list 'auto-mode-alist '("Gemfile$" . ruby-mode))
 
 ;; most of the time I like ruby-electric, though sometimes it can be a pain
 ;; also adding flymake for syntax checking (also sometimes can be a pain)
@@ -37,6 +38,29 @@
 ;; http://github.com/technomancy/emacs-starter-kit/(github commit gobbly gook)/elpa-to-submit/ri.el
 ;; may slow Aquamacs startup
 (require 'ri)
+
+;; Enable rainbow-mode on stylesheet file types
+;;(autoload 'rainbow-mode "rainbow-mode" "" t)
+(require 'rainbow-mode)
+(setq rainbow-html-colors-major-mode-list (quote
+					    (
+					     html-mode
+					     css-mode
+					     scss-mode
+					     php-mode
+					     nxml-mode
+					     xml-mode
+					     )
+					    )
+      )
+
+(add-hook 'scss-mode 'rainbow-mode)
+
+;; Enable haml-mode
+(add-to-list 'auto-mode-alist '("\\.html\\.haml\\'" . haml-mode))
+
+;; Indentation
+(global-set-key (kbd "RET") 'newline-and-indent)
 
 ;; whitespace setup
 (add-hook 'ruby-mode-hook 'whitespace-mode)

@@ -28,3 +28,9 @@
 [submodule "site-lisp/org-mode"]
 	path = site-lisp/org-mode
 	url = git://repo.or.cz/org-mode.git
+[submodule "site-lisp/magit"]
+	path = site-lisp/magit
+	url = https://github.com/magit/magit.git
+[submodule "site-lisp/nxhtml"]
+	path = site-lisp/nxhtml
+	url = https://github.com/emacsmirror/nxhtml.git

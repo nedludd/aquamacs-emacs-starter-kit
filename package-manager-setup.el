@@ -15,6 +15,7 @@
       '(
 	;; Recipes
 	anything
+	rainbow-mode
 	smex
 	yaml-mode
 

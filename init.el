@@ -38,8 +38,13 @@
 
 ;;;;; Vendor libs
 
+;; Nxhtml mode
+(load (concat site-lisp-dir "/nxhtml/autostart.el"))
+
+;; Magit
+(autoload 'magit-status "magit" nil t)
+
 ;; general coding/editing niceties
-(require 'line-num)
 (require 'whitespace)
 
 ;;;;; end Vendor libs
@@ -49,6 +54,7 @@
 (require 'appearance)
 (require 'anything-setup)
 (require 'auto-complete-setup)
+(require 'dired-setup)
 (require 'ibuffer-setup)
 (require 'ido-setup)
 (require 'js2-mode-setup)
