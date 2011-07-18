@@ -7,9 +7,11 @@
 ;; http://github.com/evangineer/aquamacs-emacs-starter-kit
 
 ;; add auto-complete to load path
-(add-to-list 'load-path (concat kitfiles-dir "/site-lisp" "/auto-complete"))
-(require 'auto-complete)
-(require 'auto-complete-config)
+;;(add-to-list 'load-path (concat kitfiles-dir "/site-lisp" "/auto-complete"))
+;;(require 'auto-complete)
+;;(require 'auto-complete-config)
+
+;; Use it everywhere
 (global-auto-complete-mode t)
 
 ;; use C-n/C-p to select candidates

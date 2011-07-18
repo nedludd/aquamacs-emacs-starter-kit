@@ -36,18 +36,8 @@
 ;; Load package manager
 (require 'package-manager-setup)
 
-;;;;; Vendor libs
-
-;; Nxhtml mode
-(load (concat site-lisp-dir "/nxhtml/autostart.el"))
-
-;; Magit
-(autoload 'magit-status "magit" nil t)
-
 ;; general coding/editing niceties
 (require 'whitespace)
-
-;;;;; end Vendor libs
 
 ;;;;; Aquamacs Emacs Starter Kit specific customizations
 (require 'adjust-path)
